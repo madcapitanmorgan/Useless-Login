@@ -14,6 +14,8 @@
 		4122E75B232FA24A0083D81F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4122E759232FA24A0083D81F /* LaunchScreen.storyboard */; };
 		4122E766232FA24A0083D81F /* UselessLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4122E765232FA24A0083D81F /* UselessLoginTests.swift */; };
 		4122E771232FA24A0083D81F /* UselessLoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4122E770232FA24A0083D81F /* UselessLoginUITests.swift */; };
+		4122E77F232FA5CB0083D81F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4122E77E232FA5CB0083D81F /* LoginViewController.swift */; };
+		4122E781232FA5E70083D81F /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4122E780232FA5E70083D81F /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		4122E76C232FA24A0083D81F /* UselessLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UselessLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4122E770232FA24A0083D81F /* UselessLoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UselessLoginUITests.swift; sourceTree = "<group>"; };
 		4122E772232FA24A0083D81F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4122E77E232FA5CB0083D81F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4122E780232FA5E70083D81F /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +101,11 @@
 		4122E74F232FA2450083D81F /* UselessLogin */ = {
 			isa = PBXGroup;
 			children = (
+				4122E754232FA2450083D81F /* Main.storyboard */,
+				4122E77E232FA5CB0083D81F /* LoginViewController.swift */,
+				4122E780232FA5E70083D81F /* WelcomeViewController.swift */,
 				4122E750232FA2450083D81F /* AppDelegate.swift */,
 				4122E752232FA2450083D81F /* ViewController.swift */,
-				4122E754232FA2450083D81F /* Main.storyboard */,
 				4122E757232FA24A0083D81F /* Assets.xcassets */,
 				4122E759232FA24A0083D81F /* LaunchScreen.storyboard */,
 				4122E75C232FA24A0083D81F /* Info.plist */,
@@ -256,6 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4122E77F232FA5CB0083D81F /* LoginViewController.swift in Sources */,
+				4122E781232FA5E70083D81F /* WelcomeViewController.swift in Sources */,
 				4122E753232FA2450083D81F /* ViewController.swift in Sources */,
 				4122E751232FA2450083D81F /* AppDelegate.swift in Sources */,
 			);
