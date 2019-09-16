@@ -10,9 +10,9 @@ Tutorial para usar FaceID / TouchID en Swift
 6. Si corre una versión compatible de iOS y tiene biométricos disponibles, ejecutar la siguiente función del mismo objeto  
   
 *context.evaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, localizedReason: "String to show to user")  
-{  
- +
- ............................................
+{
++  
+
  success, evaluateError in  
     DispatchQueue.main.async  
     {  
@@ -24,7 +24,6 @@ Tutorial para usar FaceID / TouchID en Swift
         {  
             print(evaluateError!)  
         }  
-    }  
-  ..........................................
+    }
 }  
 *
