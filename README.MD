@@ -1,6 +1,7 @@
 Tutorial para usar FaceID / TouchID en Swift
+============================================
 
-Pasos a seguir:
+## Pasos a seguir:
 1.- Actualizar Info.Plist para agregar la key NSFaceIDUsageDescription
 2.- Crear una constante objeto de tipo LAContext e inicializarla
 3.- Asignar una variable de tipo NSError?
