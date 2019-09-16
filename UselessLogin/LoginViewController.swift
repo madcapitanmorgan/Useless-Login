@@ -27,7 +27,8 @@ class LoginViewController:UIViewController
                     {
                         if success
                         {
-                            print("Auth successfull")
+                            let welcome:WelcomeViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "Welcome View Controller") as! WelcomeViewController
+                            self.present(welcome, animated: true, completion: nil)
                         }
                         else
                         {
@@ -57,7 +58,8 @@ class LoginViewController:UIViewController
                         {
                             if success
                             {
-                                print("Auth successfull")
+                                let welcome:WelcomeViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "Welcome View Controller") as! WelcomeViewController
+                                self.present(welcome, animated: true, completion: nil)
                             }
                             else
                             {
