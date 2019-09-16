@@ -9,7 +9,7 @@ Tutorial para usar FaceID / TouchID en Swift
 5. Comprobar que el dispositivo tenga disponibles los biométricos, esto con la función *.canEvaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, error: &authError)* del objeto LAContext, siendo authError la variable previamente definida, en la cuál se almacenarán los errores en caso de suceder  
 6. Si corre una versión compatible de iOS y tiene biométricos disponibles, ejecutar la siguiente función del mismo objeto  
   
-*context.evaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, localizedReason: "String to show to user")  
+*context.evaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, localizedReason: "*String to show to user")  
 {
 +  
 
@@ -26,4 +26,4 @@ Tutorial para usar FaceID / TouchID en Swift
         }  
     }
 }  
-*
+
